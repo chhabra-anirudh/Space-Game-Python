@@ -2,12 +2,13 @@
 This is the start of our "space" style game
 April 3rd 2023 Anirudh Chhabra
 """
+import os
 import turtle
 import random
 import math
 import time
 
-
+os.chdir("gifs")
 #Register shapes
 turtle.register_shape("playerup_1.gif")
 turtle.register_shape("playerup_2.gif")
